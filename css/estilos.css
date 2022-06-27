@@ -18,16 +18,83 @@
 body {
    font-family: 'Red Hat Display', sans-serif;
    font-size: 16px;
+   background-color: #e0e8ff;
 
 }
 
-.container {}
+.arriba {
+   background-color: #d6e1ff;
+   width: 100%;
+   height: 40vh;
 
-.attribution {
-   font-size: 11px;
+}
+
+.onda {
+   position: relative;
+   top: 40vh;
+   z-index: -1;
+}
+
+
+.container__card {
+   width: 400px;
+   height: 100%;
+   background-color: white;
+   position: relative;
+   bottom: 90px;
+   left: 40%;
+   border-radius: 15px;
+
    text-align: center;
 }
 
-.attribution a {
-   color: hsl(228, 45%, 44%);
+.container__figure {
+   height: 190px;
+   width: 100%;
+   background-image: url(../images/illustration-hero.svg);
+   background-size: cover;
+   object-fit: cover;
+   border-radius: 15px 15px 0 0;
+}
+
+.container__texto {
+   padding: 20px;
+}
+
+h1 {
+   background: white;
+   color: var(--Dark-blue)
+}
+
+p {
+   color: var(--Desaturated-blue);
+}
+
+.container__tarjeta {
+   background-color: var(--Very-pale-blue);
+   padding: 15px;
+   margin-top: 10px;
+   border-radius: 8px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.containner__img2 {
+   width: 30px;
+   height: 30px;
+   margin-right: 15px;
+}
+
+.nota {
+   display: flex;
+
+}
+
+.span {
+   font-weight: bolder;
+}
+
+button {
+   margin-top: 15px;
+   border: none;
 }
